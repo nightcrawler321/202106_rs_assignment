@@ -4,13 +4,19 @@ Technical assignment for the geospatial data scientist position at [CREA](https:
 
 # Background
 
-In this assignment, we are trying to better understand NO2 emissions from Paris, using Sentinel-5P TROPOMI sensor, following a simplified version of [Lorente et al. 2019](http://www.nature.com/articles/s41598-019-56428-5) and [de Foy et al. 2014](http://acmg.seas.harvard.edu/publications/aqast/articles/defoy_et_al_2014_ae.pdf).  
+In this assignment, we are trying to better understand NO2 emissions from Paris, using Sentinel-5P TROPOMI sensor, following a simplified version of [Lorente et al. 2019](http://www.nature.com/articles/s41598-019-56428-5) and [de Foy et al. 2014](http://acmg.seas.harvard.edu/publications/aqast/articles/defoy_et_al_2014_ae.pdf).
 
-We expect you to fill the following tasks / answer the following questions in either a Jupyter notebook or a Markdown document with attached Python code and results.
+We expect you to fill the following tasks / answer the following questions using Python.
+
+To submit your results, please share a repository to `hubert-thieriot` on GitHub, that contains either a Jupyter notebook or a Markdown document with attached Python code and results.
+
+If you have any question or comment, please reach out to [hubert@energyandcleanair.org](mailto:hubert@energyandcleanair.org)
+
+Have fun!
 
 ## Dataset
 
-For this assignment, you only neeed to rely on the attached [geotiffs](data/):
+For this assignment, you only need to rely on the attached [geotiffs](data/):
 
 - daily NO2 troposheric column density retrieved from [Sentinel5P OFFL/L3_NO2](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S5P_OFFL_L3_NO2) dataset; and
 - daily wind speed (`u` and `v`) components from [ERA5](https://developers.google.com/earth-engine/datasets/catalog/ECMWF_ERA5_DAILY).
@@ -37,6 +43,3 @@ with:
 - x<sub>0</sub>: length scale for chemical decay
 
 For each day of the dataset, determine the optimal parameters a, x<sub>0</sub> and σ<sub>x</sub>. Based on the result parameters, what can you say about the emissions in the selected days?
-
-## Questions
-If you have any question or comment, please reach out to [hubert@energyandcleanair.org](mailto:hubert@energyandcleanair.org)
