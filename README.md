@@ -42,4 +42,6 @@ with:
 - x - µ<sub>x</sub>: position along the line density axis (x-µ<sub>x</sub>)=0 in Paris
 - x<sub>0</sub>: length scale for chemical decay
 
-For each day of the dataset, determine the optimal parameters a, x<sub>0</sub> and σ<sub>x</sub>. Based on the result parameters, what can you say about the emissions in the selected days?
+For each day of the dataset, determine the optimal parameters a, x<sub>0</sub> and σ<sub>x</sub> and plot observed vs fitted density lines.
+
+Can you say anything about NOx emissions during the selected days?
